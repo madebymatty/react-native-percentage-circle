@@ -83,7 +83,7 @@ class PercentageCircle extends Component {
     };
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(nextProps) {
     let percent = nextProps.percent;
     let leftTransformerDegree = '0deg';
     let rightTransformerDegree = '0deg';
